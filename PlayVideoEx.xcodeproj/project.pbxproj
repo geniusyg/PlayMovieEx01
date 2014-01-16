@@ -21,6 +21,7 @@
 		006324831887A07C000FC1DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006324651887A07C000FC1DD /* UIKit.framework */; };
 		0063248B1887A07C000FC1DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 006324891887A07C000FC1DD /* InfoPlist.strings */; };
 		0063248D1887A07C000FC1DD /* PlayVideoExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0063248C1887A07C000FC1DD /* PlayVideoExTests.m */; };
+		006324971887A522000FC1DD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006324961887A522000FC1DD /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		006324881887A07C000FC1DD /* PlayVideoExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayVideoExTests-Info.plist"; sourceTree = "<group>"; };
 		0063248A1887A07C000FC1DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0063248C1887A07C000FC1DD /* PlayVideoExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayVideoExTests.m; sourceTree = "<group>"; };
+		006324961887A522000FC1DD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006324971887A522000FC1DD /* MediaPlayer.framework in Frameworks */,
 				006324641887A07C000FC1DD /* CoreGraphics.framework in Frameworks */,
 				006324661887A07C000FC1DD /* UIKit.framework in Frameworks */,
 				006324621887A07C000FC1DD /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		006324601887A07C000FC1DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				006324961887A522000FC1DD /* MediaPlayer.framework */,
 				006324611887A07C000FC1DD /* Foundation.framework */,
 				006324631887A07C000FC1DD /* CoreGraphics.framework */,
 				006324651887A07C000FC1DD /* UIKit.framework */,
